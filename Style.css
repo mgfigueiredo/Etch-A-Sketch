@@ -1,0 +1,36 @@
+:root{
+    --rowNum: auto;
+    --colNum: auto;
+    --rowSize: 10px;
+    --colSize: 10px;
+    background-image: linear-gradient(90deg, blue, red);
+}
+
+.name{
+    margin-left: 650px;
+}
+
+#clearButton{
+    position: relative;
+    width: 200px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    margin-bottom: 5px;
+    margin-left: 650px;
+    margin-top: 30px;
+}
+.tester{
+    border: 5px solid black;
+    display: grid;
+    width: 500px;
+    grid-template-rows: repeat(var(--rowNum), var(--rowSize));
+    grid-template-columns: repeat(var(--colNum), var(--colSize)); 
+    margin-left: 500px;
+    margin-top: 10px;
+
+}
+
+.new{
+    background-color:  whitesmoke;
+}
+
